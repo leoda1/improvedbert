@@ -1,0 +1,71 @@
+{
+  "citation": "",
+  "config_name": "plain_text",
+  "dataset_size": 89834384,
+  "description": "",
+  "download_checksums": {
+    "https://huggingface.co/datasets/rajpurkar/squad/resolve/7b6d24c440a36b6815f21b70d25016731768db1f/plain_text/train-00000-of-00001.parquet": {
+      "num_bytes": 14458314,
+      "checksum": null
+    },
+    "https://huggingface.co/datasets/rajpurkar/squad/resolve/7b6d24c440a36b6815f21b70d25016731768db1f/plain_text/validation-00000-of-00001.parquet": {
+      "num_bytes": 1819889,
+      "checksum": null
+    }
+  },
+  "download_size": 16278203,
+  "features": {
+    "input_ids": {
+      "feature": {
+        "dtype": "int32",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "token_type_ids": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "attention_mask": {
+      "feature": {
+        "dtype": "int8",
+        "_type": "Value"
+      },
+      "_type": "Sequence"
+    },
+    "offset_mapping": {
+      "feature": {
+        "feature": {
+          "dtype": "int64",
+          "_type": "Value"
+        },
+        "_type": "Sequence"
+      },
+      "_type": "Sequence"
+    },
+    "overflow_to_sample_mapping": {
+      "dtype": "int64",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 106112587,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 79357058,
+      "num_examples": 87599,
+      "dataset_name": "parquet"
+    },
+    "validation": {
+      "name": "validation",
+      "num_bytes": 10477326,
+      "num_examples": 10570,
+      "dataset_name": "parquet"
+    }
+  }
+}
